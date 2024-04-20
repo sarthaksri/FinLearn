@@ -7,19 +7,49 @@
 
 .container {
     background-color: #202020;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .text {
     color : white;
     font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-img {
+.body {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.logo {
     padding-left: 25px;
     height: 100%;
 }
 
+.flogo{
+    margin-bottom: 10px;
+}
+
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 button {
     margin-right: 25px;
     height: 40%;
@@ -30,7 +60,22 @@ button {
     font-family: "Poppins", sans-serif;
 }
 
-.button :hover {
+/* button :hover {
     background-color: #FFBF00;
     transition: 0.7s;
+} */
+
+h2 {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+h3{
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    width: 60%;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
 }
