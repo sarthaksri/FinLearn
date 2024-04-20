@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+.container {
+    background-color: #202020;
+    height: 100vh;
+}
+
+.text {
+    color : white;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    padding-left: 25px;
+    height: 100%;
+}
+
+button {
+    margin-right: 25px;
+    height: 40%;
+    width: 8%;
+    border-radius: 20px;
+    background-color: #FFbf59;
+    border : none;
+    font-family: "Poppins", sans-serif;
+}
+
+.button :hover {
+    background-color: #FFBF00;
+    transition: 0.7s;
+}
