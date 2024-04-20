@@ -6,6 +6,9 @@ const StockPage = () => {
   return (
     <div className="container">
         <NavBar/>
+        <div className="infobox">
+          
+        </div>
         <Chart/>
     </div>
   )

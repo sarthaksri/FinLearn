@@ -58,7 +58,7 @@ function Chart() {
             "all|1M"
           ]
         }`;
-    //   container.current.appendChild(script);
+      container.current.appendChild(script);
     },
     []
   );
