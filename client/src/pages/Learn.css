@@ -1,5 +1,17 @@
 .maincontainer{
-    color:red;
+    width: 100%;
+    color:#C10206;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.Lh1{
+    margin-bottom: 50px;
+}
+
+iframe {
+    height: 50%;
+    width: 40%;
 }
