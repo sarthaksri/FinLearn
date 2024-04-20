@@ -2,6 +2,7 @@ import './App.css'
 import { useAuth0 } from '@auth0/auth0-react'
 import {BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom'
 import HomePage from './pages/HomePage'
+import Learn from './pages/Learn'
 import StockPage from './pages/StockPage'
 
 
