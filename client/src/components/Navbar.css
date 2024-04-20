@@ -1,0 +1,14 @@
+.navbar {
+    display:  flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+}
+
+.Nbuttons {
+    width: fit-content;
+    padding: 8px;
+    font-family: "Poppins", sans-serif;
+}
