@@ -1,11 +1,12 @@
 import "./HomePage.css"
+import LoginButton from "../components/LoginButton"
 
 const HomePage = () => {
   return (
     <div className="container">
         <div className="navbar">
             <img className="logo" src="src\assets\logo.png" alt="logo.png" />
-            <button>Login</button>
+            <LoginButton></LoginButton>
         </div>
         <div className="body">
             <div className="text">
