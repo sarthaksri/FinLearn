@@ -12,7 +12,6 @@ const StockPage = () => {
         <div className="infobox">
           
         </div>
-        <CandleGraph/>
         <Chart/>
     </div>
   )
