@@ -2,3 +2,39 @@
     background-color: #202020;
     height: 100vh;
 }
+
+.expenseP {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.expenseP span {
+    color: greenyellow;
+}
+
+.expenseL {
+    display: flex;
+    justify-content: space-between;
+}
+
+.expenseL span{
+    color: red;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+}
+
+.tranc {
+    width: 60%;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
